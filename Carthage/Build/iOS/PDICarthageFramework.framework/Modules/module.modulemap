@@ -1,0 +1,11 @@
+framework module PDICarthageFramework {
+  umbrella header "PDICarthageFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PDICarthageFramework.Swift {
+    header "PDICarthageFramework-Swift.h"
+    requires objc
+}
